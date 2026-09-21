@@ -1,15 +1,15 @@
-def main (n,c,t="Hello"):
+def nonies (n,c,t="Hello"):
     c= "Ma Boy"
     
     return f"{t} {n} {c}"
 
-x = input ("Your Name? : ")
-print ("Ohh ",x)
+mexi = input ("Your Name? : ")
+print ("Ohh ",mexi)
 
-y = main(x,"lor")
-print(y)
+why = main(mexi,"lore")
+print(why)
 
-z= main(x,"Chipangi","Heyaa") 
+z= (mexi,"Chipangi","Heyaa") 
 print(z)
 
 

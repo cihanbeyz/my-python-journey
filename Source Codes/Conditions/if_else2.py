@@ -1,20 +1,21 @@
-# def countdown(n):
-#     if n<=0:
-#         return "Blast OFf"
+def main():
+    n = input("what's Your Number?")
 
-#     print (n)
+def countdown(n):       #parameters
+    if n<=0:
+        return "Blast OFf"
+
+    print (n)
     
-#     return countdown(n - 1)
+    return countdown(n - 1)
 
-# def waima(sadness,happiness,lessmoreless):
-#     sadness = input("Your mood? ")
-#     happiness = input("Your swings: ")
-#     return f"Are you sure you okay you are saying {sadness}. Just smile as your {happiness}"
-# meh = waima(2,4,3)
-# print(meh)
-
-
-
+def waima(sadness,happiness,lessmoreless):
+    sadness = input("Your mood? ")
+    happiness = input("Your swings: ")
+    return f"Are you sure... you okay? you are saying {sadness}. Just smile and avoid this short statment -> {happiness}"
+meh = shit(2,4,3)       #positional arguments
+print(meh)
+main()
 
 def custom_greet(name,greeting="Hello"):
     return f"{greeting}, {name}"
@@ -26,10 +27,6 @@ meoww = custom_greet("Alex","Heyaa")
 print(meoww)                            #2
 
 print(custom_greet("Alex!","Sup"))      #3
-
-
-
-
 
 
 def math_machine(a,b,operation="add"):

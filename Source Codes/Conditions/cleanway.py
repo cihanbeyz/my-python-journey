@@ -34,6 +34,6 @@ def super_condition(x):
     else:
         return "Normal"
 
-x = input ("What's x??").lower()
+x = input ("What's x??").lower().strip()
 print(super_condition(x))
 

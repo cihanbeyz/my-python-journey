@@ -1,12 +1,9 @@
-emoticon = "kidding yar v_v"
-roo = input("Heya Sup?")
-# def main():
-#     return "Machoo!!",emoticon       #here we returning two things at once comma between them so it'll exactly as it is
-#     return "machoo"+ " "+ emoticon    #machoo whole with parentheses,quotes and comma in output so if you wanna avoid this mistake just remove coma and use + sign or use print instead of return
+our_inpu = input("Heya Sup?")
+emoticon = "kidding Man Relax!!>-<"
+def main():
+    
 
-# print(main())
-
-def waimo(lol,b=9):
+def waimo(lol):
     lower_lol = lol.lower()
     if "sup" in lower_lol:
         print("I'm Gud")
@@ -17,32 +14,31 @@ def waimo(lol,b=9):
     else:
         print("what's up")
 
-waimo(roo)
+waimo(our_inpu)
 
 
-# def soni():
-#     global emoticon
-#     emoticon = "Batra Hun Karwee"
-#     return emoticon
+def soni():
+    global emoticon
+    emoticon = "Hi Chat"
+    return emoticon
+print(soni())
     
-# print(soni())
 
-# print(cya,">.<")
+def meme(lom):
+    cy = input("Are You Okay Miss? ")
+    kiti = "Hello Miss?"
+    print("Feeling okay?"+ kiti)
+meme(our_inpu)
 
 
+def noni(lom):
+    global emoticon
+    emoticon = "Foget Chat"
+    return emoticon
+    print(emoticon,">.<")
+noni(our_inpu)    
 
-# emoticon = "Bacha Ho v_v"
-# cya = input("Kon Hai Baee Tu? ")
-# def main():
-#     print("Machoo!!"+emoticon)
-# main()
+main()
 
-# def soni():
-#     global emoticon
-#     emoticon = "Batra Hun Karwee"
-#     return emoticon
-    
-# soni()
-# main()
-
-# print(cya,">.<")
+#     return "Machoo!!",emoticon       #here we returning two things at once comma between them so it'll return exactly as it is
+#     return "machoo"+ " "+ emoticon    #machoo whole with parentheses,quotes and comma in output so if you wanna avoid this mistake just remove coma and use + sign or use print instead of return
