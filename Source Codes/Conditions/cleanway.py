@@ -1,16 +1,16 @@
 #To avoid deep nesting , you must need to Guard Clauses (clean)
 
 
-def check (x):
-    if x <= 0 :
-        return "Negitive Or Zero not allowed."
+# def check (x):
+#     if x <= 0 :
+#         return "Negitive Or Zero not allowed."
 
-    if x % 2 == 0 :                         
-        return "Number is Even positive."
-    return "Number is Odd positive."
+#     if x % 2 == 0 :                         
+#         return "Number is Even positive."
+#     return "Number is Odd positive."
 
-n = int(input("What's x??"))
-print(check(n))
+# n = int(input("What's x??"))
+# print(check(n))
 
 #For String And Int
 
@@ -29,7 +29,7 @@ def super_condition(x):
         return "Negitive"
     elif num % 2==0 and num % 5==0:
         return "Devisible by 10"
-    elif num % 2==0 or num % 5==0:
+    elif num % 2==0 and num % 5==0:
         return "Divisible by 2,5"
     else:
         return "Normal"

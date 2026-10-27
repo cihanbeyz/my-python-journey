@@ -1,20 +1,20 @@
-our_inpu = input("Heya Sup?")
-emoticon = "kidding Man Relax!!>-<"
-def main():
+emoticon = "kidding Man Relax!!>-<"      #universal var
     
+def main():
 
 def waimo(lol):
     lower_lol = lol.lower()
     if "sup" in lower_lol:
-        print("I'm Gud")
+        return "I'm Gud"
     elif "hello" in lower_lol:
-        print("Heyaa")
+        return "Heyaa"
     elif "bye" in lower_lol:
-        print("See ya")
+        return "See ya"
     else:
-        print("what's up")
+        return "what's up"
 
-waimo(our_inpu)
+print(waimo(lol))
+lol = input("Heya Sup?")
 
 
 def soni():

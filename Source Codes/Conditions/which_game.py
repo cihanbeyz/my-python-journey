@@ -1,7 +1,10 @@
 def main():
 
-    difficulty = input("Choose a difficulty level: EASY OR HARD? ").lower()
-    if not (difficulty == "easy" or difficulty == "hard"):
+    difficulty = input("Choose a difficulty level: EASY OR HARD? ").lower().strip()
+    if difficulty == " ":
+        print("Please Input Something")
+        return
+    elif not (difficulty == "easy" or difficulty == "hard"):
         print( "Invalid difficulty level, Please Choose One")
         return
     player = input("Choose player preference: Single player Or Multiplayer? ").lower().strip()

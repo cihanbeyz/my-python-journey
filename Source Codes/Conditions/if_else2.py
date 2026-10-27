@@ -1,6 +1,6 @@
 def main():
-    n = input("what's Your Number?")
 
+n = input("what's Your Number?")
 def countdown(n):       #parameters
     if n<=0:
         return "Blast OFf"
@@ -13,7 +13,7 @@ def waima(sadness,happiness,lessmoreless):
     sadness = input("Your mood? ")
     happiness = input("Your swings: ")
     return f"Are you sure... you okay? you are saying {sadness}. Just smile and avoid this short statment -> {happiness}"
-meh = shit(2,4,3)       #positional arguments
+meh = waima(2,4,3)       #positional arguments
 print(meh)
 main()
 
