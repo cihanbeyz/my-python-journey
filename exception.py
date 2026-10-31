@@ -21,3 +21,20 @@ def get_int():
             break
     return z
 main()
+
+
+
+
+def main ():
+    x = get_integar()
+
+def get_integar():
+    while True:
+        try:
+            y = int(input("What is the value of X: "))
+            break
+        except ValueError:
+            print("X can't be integer ")
+        else:
+            print(f"x is {y}")
+main()
