@@ -15,14 +15,12 @@ def get_int():
         try:
             z = int(input("Enter the x : "))
         except ValueError:
-            print("X can't be integer ")
+            pass
         else:
             print(f"x is {z}")
             break
     return z
 main()
-
-
 
 
 def main ():
@@ -37,4 +35,19 @@ def get_integar():
             print("X can't be integer ")
         else:
             print(f"x is {y}")
+main()
+
+def main():
+    xo = get_int("What's X?: ")
+    print(f"x is {xo}")
+
+def get_int(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+            break
+        except ValueError:
+            pass
+        
+
 main()
